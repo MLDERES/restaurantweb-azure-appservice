@@ -58,3 +58,10 @@ There are several locations in the tutorial where you will be told to check a pa
 
 ### Stage 7 - Clean up resources
 - Make sure to take a screenshot of your web page running and the resource visualizer before you delete the resources.
+
+
+## HINTS
+- You must have a SECRET_KEY environment variable that is some actual text.  You can create one on your own PC with
+```python
+python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+```
